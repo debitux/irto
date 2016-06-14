@@ -1,3 +1,11 @@
+NOT READY FOR THE MOMENT
+
 Irto
 
 A package manager for C++
+
+I Building:
+    mkdir build ; cd build ; cmake ../
+
+II Run:
+    cd bin ; ./irto -h
