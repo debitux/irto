@@ -8,7 +8,7 @@ project(irto VERSION ${VERSION_MAJOR}.${VERSION_MINOR}.${VERSION_PATCH})
 #include(CTest) 
 #enable_testing()
 
-#include(cmake/lib.cmake)
+include(cmake/lib.cmake)
 #include(cmake/unix.cmake)
 #include(cmake/windows.cmake)
 

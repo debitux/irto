@@ -13,4 +13,4 @@ SET(BUILD_DATE ${CURRENT_DATE}_${CURRENT_TIME} )
 set(version_in ${CMAKE_CURRENT_SOURCE_DIR}/cmake/version.in)
 set(version_hpp ${CMAKE_CURRENT_SOURCE_DIR}/src/version.hpp)
 
-configure_file(${version_in} ${version_hpp})
+configure_file(${version_in} ${version_hpp} @ONLY)
