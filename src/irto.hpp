@@ -17,5 +17,5 @@
 #ifndef DEBITUX_IRTO_HPP
 #define DEBITUX_IRTO_HPP
 
-#endif /* DEBITUX_IRTO_HPP */
+#endif // DEBITUX_IRTO_HPP 
 

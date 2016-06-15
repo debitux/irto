@@ -2,21 +2,26 @@ include_directories (src)
 
 
 SET ( SRCS 
-        ${SRCS_DIR}/irto.cpp
+        src/main.cpp
+        src/typedef/memory.hpp
+        src/program_options.cpp
+        src/irto.cpp
         )
 
 SET ( HEADERS 
-        ${SRCS_DIR}/irto.hpp
+        src/program_options.hpp
+        src/irto.hpp
         )
 
 
 add_executable(
-	${PROJECT_NAME}
+        ${PROJECT_NAME}
         ${HEADERS}	
         ${SRCS}	
-	)
+        )
 
 target_link_libraries(
-	${PROJECT_NAME}
+        ${PROJECT_NAME}
+        ${Boost_LIBRARIES}
         #lib
-	)
+        )

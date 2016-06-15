@@ -14,12 +14,7 @@
  *    limitations under the License.
  */
 
-#include <iostream>
-#include "irto.hpp"
+#include "irto.hpp" 
 
 
-int
-main(int argc, char *argv[])
-{
-        std::cout << "initial commit" << std::endl;
-}
+
