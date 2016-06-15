@@ -5,7 +5,7 @@ include(cmake/version.cmake)
 project(irto VERSION ${VERSION_MAJOR}.${VERSION_MINOR}.${VERSION_PATCH})
 
 
-#include(CTest) 
+include(CTest) 
 #enable_testing()
 
 include(cmake/lib.cmake)
